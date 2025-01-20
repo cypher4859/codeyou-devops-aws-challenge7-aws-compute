@@ -84,11 +84,11 @@ Launch, configure, and access an EC2 instance independently, using the skills le
 4. **Connect to the Instance**
    - Log in via SSH using your key pair.
 
-**Bonus Challenge:**
+5. **Adding a Welcome File**
 - Use the terminal to:
-  - Update the instance’s package manager:
-    ```bash
-    sudo yum update -y
-    ```
-  - Create a simple file named `welcome.txt` in the home directory with a welcome message.
+    - Update the instance’s package manager:
+        ```bash
+        sudo yum update -y
+        ```
+    - Create a simple file named `welcome.txt` in the home directory with a welcome message.
 
